@@ -7,11 +7,11 @@ import ArrowRight from "./icons/ArrowRight";
 
 const CustomCarousel = ({
   children,
+  responsive,
+  slidesToShow,
+  pagination = true,
   carouselClassName,
   containerClassName,
-  slidesToShow,
-  responsive,
-  pagination = true,
 }) => {
   const paginationDots = (dots) => (
     <div>
